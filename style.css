@@ -3,10 +3,12 @@ body {
 }
 .header1 {
 	font-size: 50px;
-	margin-left: 128px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 0px;
 	font-weight: lighter;
 	color:#000;
+	display: block;
 }
 
 .header2 {
@@ -15,7 +17,6 @@ body {
 	margin-left: 40px;
 	margin-top: 80px;
 }
-
 
 
 ul {
@@ -47,7 +48,7 @@ ul li a p {
 }
 
 .menu {
-	width: 480px;
+	width: 500px;
 	height: 100%;
 	color:#fff;
 	z-index: 5;
@@ -55,7 +56,7 @@ ul li a p {
 	top: 0;
 	padding-top: 20px;
 	padding-bottom: 50px;
-	box-shadow: 3px 0 8px rgba(0,0,0,0.5)
+	box-shadow: 3px 0 8px rgba(0,0,0,0.5);
 }
 
 
