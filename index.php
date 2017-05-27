@@ -5,6 +5,7 @@
 	<title>Portfolio</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="script.js"></script>
+	<link rel="stylesheet" href="openMenu.php">
 	<style>
 		.mHeader, header, .mFooter, footer {
 			background-color: #4caf50;
@@ -21,7 +22,6 @@
 
 
 	<?php include "includes/footer.php";?>
-
 
 </body>
 </html>
