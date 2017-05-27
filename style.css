@@ -1,68 +1,74 @@
-body {
-	font-family: roboto;margin:0;padding:0;border:0;background-color: #009688;
+html, body, div, ul, li, a, h1, h2, h3, h4, h5, h6, form {
+	margin: 0;padding: 0;border:0;font-family: roboto;
 }
-.header1 {
-	font-size: 50px;
-	margin-top: 10px;
-	font-weight: lighter;
-	color:#000;
-	display: block;
+html, body {
+	min-height: 100vh;
+}
+.clear {
+	clear:both;
+}
+
+
+/*********************************** HEADER *****************************************/
+.mHeader {
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.5)
+}
+.mHeader p {
+	float:right;
+	margin-right: 45px;
+	color:#fff;
+	margin-top: 155px;
+	font-size: 30px;
+}
+.mHeader img {
+	margin:20px;
+	width: 40px;
+	height: auto;
+}
+
+
+/************************************************ FOOTER *****************************/
+.mFooter {
+	width:100%;
+	height:100px;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 16px;
+}
+.mFooter p {
+	color: #fff;
+	line-height: 100px;
 	text-align: center;
 }
 
-.header2 {
-	color: rgba(0, 0, 0, 0.5);
-	font-size: 30px;
-	margin-left: 40px;
-	margin-top: 80px;
-}
 
 
-ul {
-	list-style-type: none;
-	margin-top: 30px;
-}
 
-ul li {
-
-}
-
-ul li a {
-	color: #000;
-	text-decoration: none;
-	font-size: 30px;
-	display: block;
-}
-
-ul li a p {
-	margin-top: -43px;
-	margin-left: 100px;
-}
-
-
-.menu img {
-	opacity: 0.7;
-	margin-top: 20px;
-	margin-right: 12px;
-}
-
-.menu {
-	width: 500px;
-	height: 100%;
-	color:#fff;
-	z-index: 5;
+/*************************************** MENU ***************************************/
+.mMenu {
+	height:100vh;
 	background-color: #fff;
-	top: 0;
-	padding-top: 20px;
-	padding-bottom: 50px;
-	box-shadow: 3px 0 8px rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 999;
+	width: 0;
+	overflow-x: hidden;
+	top:0;
+	left: 0;
+	padding-top: 50px;
+}
+.mMenu p {
+	text-align:center;
 }
 
 
-.divider {
-	height: 2px;
+.hej {
+	color:#000;
+	text-align: center;
 	width: 100%;
-	background-color: rgba(0,0,0,0.5);
-	margin-top: -20px;
-	margin-bottom: 20px;
+	height: 200px;
+	position: absolute;
+	top:200px;
 }
