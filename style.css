@@ -36,8 +36,9 @@ html, body {
 }
 .mFooter p {
 	color: #fff;
-	line-height: 100px;
+	line-height: 110px;
 	text-align: center;
+	font-size: 30px
 }
 
 /*************************************** MENU ***************************************/
@@ -174,7 +175,7 @@ input[type=submit] {
 .card h1 {
 	font-size: 55px;
 	margin-left: 20px;
-	margin-top: 10px;
+	margin-top: 15px;
 	font-weight: 400;
 }
 .card h2 {
@@ -184,3 +185,6 @@ input[type=submit] {
 	font-weight: 300;
 	width: 76%;
 }
+
+
+/********************************************mONLY*********************************************/

@@ -5,7 +5,22 @@
 ?>
 <?php include 'includes/menu.php'; ?>
 <!-- <div class="clear"></div> -->
-<div class="hej"><p>24</p></div>
+<?php
+	$cardImage = "panoramaJarfalla.jpg";
+	$cardTitle = "Järfälla";
+	$cardSubTitle = 'Flygfoto över Järfälla';
+	$cardLink1 = "link1";
+	$cardLink2 = "link2";
+	include 'includes/card.php';
+?>
+<?php
+	$cardImage = "piza.jpg";
+	$cardTitle = "Pisa";
+	$cardSubTitle = 'Bild på Lutande tornet, katedralen i Pisa och dopkapellet i Pisa';
+	$cardLink1 = "link1";
+	$cardLink2 = "link2";
+	include 'includes/card.php';
+?>
 
 
 

@@ -1,0 +1,8 @@
+<?php
+	$cardImage = "image.jpg";
+	$cardTitle = "Title";
+	$cardSubTitle = 'description';
+	$cardLink1 = "link1";
+	$cardLink2 = "link2";
+	include 'includes/card.php';
+?>

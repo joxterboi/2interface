@@ -5,8 +5,23 @@
 ?>
 <?php include 'includes/menu.php'; ?>
 <!-- <div class="clear"></div> -->
-<div class="hej"><p>24</p></div>
 
+<?php
+	$cardImage = "vinceSilhouette.jpg";
+	$cardTitle = "Title";
+	$cardSubTitle = 'description';
+	$cardLink1 = "link1";
+	$cardLink2 = "link2";
+	include 'includes/card.php';
+?>
+<?php
+	$cardImage = "4persSilhouette.jpg";
+	$cardTitle = "Title";
+	$cardSubTitle = 'description';
+	$cardLink1 = "link1";
+	$cardLink2 = "link2";
+	include 'includes/card.php';
+?>
 
 
 

@@ -1,7 +1,7 @@
 <div class="mMenu mOnly">
 	<p id="mMenuTitle">Portfolio</p>
 	<div class="devider"></div>
-	<p id="mMenuSubTitle">All pages</p>
+	<p id="mMenuSubTitle" class="mOnly">All pages</p>
 	<ul>
 		<li>
 			<a href="index.php" id="mMenuItems"><img src="icons/home.svg"> Home</a>
@@ -50,9 +50,8 @@
 	?>
 </div>
 <div class="closeMenu mOnly">
-	<img src="icons/menu.svg">
 	<form method="post">
-		<input type="submit" name="close" id="test" style="margin-top: -77px;position: absolute;margin-left: 350px">
+		<input type="submit" name="close" id="test" style="position: absolute;width: 67vw;min-height: 100vh;margin-top: -110px;overflow: hidden;">
 	</form>
 	
 	<?php
