@@ -5,6 +5,7 @@ html, body, div, ul, li, a, h1, h2, h3, h4, h5, h6, form {
 }
 html, body {
 	min-height: 100vh;
+	background-color: #EDEDED;
 }
 .clear {
 	clear:both;
@@ -12,34 +13,32 @@ html, body {
 /*********************************** HEADER *****************************************/
 .mHeader {
 	width: 100%;
-	height: 200px;
-	position: absolute;
+	height: 130px;
+	position: relative;
 	box-shadow: 0 7px 9px rgba(0,0,0,0.5)
 }
 .mHeader p {
-	float:right;
-	margin-right: 45px;
+	float: left;
+	margin-left: 230px;
 	color:#fff;
-	margin-top: 135px;
 	font-size: 50px;
+	margin-top: 38px;
 }
 
 /************************************************ FOOTER *****************************/
 .mFooter {
 	width:100%;
 	height:100px;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	padding-bottom: 16px;
+	margin-top: 50px;
 }
 .mFooter p {
 	color: #fff;
 	line-height: 100px;
 	text-align: center;
 }
-
-
-
 
 /*************************************** MENU ***************************************/
 .mMenu {
@@ -71,27 +70,30 @@ html, body {
 	position: absolute;
 	z-index: 20;
 	margin-left: 100px;
+	margin-top: 33px;
 }
 
 .closeMenu {
 	position: absolute;
 	z-index: 20;
 	margin-left: 320px;
+	margin-top: -24px;
 }
 
 .openMenu img /*Menu open icon*/ {
-	margin:53px;
-	width: 80px;
+	margin:-132px;
+	width: 70px;
 	height: auto;
-	margin-left: -40px;
+	margin-left: -34px;
+	position: absolute;
 }
 
 .closeMenu img {
-	width: 80px;
+	width: 70px;
 	height: auto;
-	margin-top: 53px;
+	margin-top: -74px;
 	margin-left: 350px;
-	display: none
+	position: absolute;
 }
 
 /**************************MENU TEXT AND ICONS************************************/
@@ -141,3 +143,44 @@ input[type=submit] {
 	margin-top: 60px;
 }
 
+
+/***************************************CARDS********************************************************/
+
+.card {
+	width: 95%;
+	margin:45px auto 0 auto;
+	height: auto;
+	background-color: #fff;
+	position: relative;
+	border-radius: 2px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card button {
+	display: inline-block;
+	padding: 8px;
+	border: none;
+	background-color: #fff;
+	font-size: 35px;
+	font-weight: 500;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.card img {
+	width: 100%;
+	margin-top: -15px;
+}
+.card h1 {
+	font-size: 55px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.card h2 {
+	font-size: 36px;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-weight: 300;
+	width: 76%;
+}
