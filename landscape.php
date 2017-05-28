@@ -8,16 +8,16 @@
 <?php
 	$cardImage = "panoBruket.jpg";
 	$cardTitle = "Gåseborg";
-	$cardSubTitle = 'description';
-	$cardLink1 = "link1";
+	$cardSubTitle = 'Ett panoramafoto av Gåseborg som är ett bärg i Järfälla med vacker utsikt över mälaren.';
+	$cardLink1 = "https://en.wikipedia.org/wiki/G%C3%A5seborg";
 	$cardLink2 = "link2";
 	include 'includes/card.php';
 ?>
 <?php
 	$cardImage = "kalleBruket.jpg";
 	$cardTitle = "Bruket";
-	$cardSubTitle = 'description';
-	$cardLink1 = "link1";
+	$cardSubTitle = 'Ett surrealistisk foto av Järfällas höjdpunkt, bruket.';
+	$cardLink1 = "https://www.jarfalla.se/kultur-idrott-och-fritid/idrott-och-motion/utforsakning.html";
 	$cardLink2 = "link2";
 	include 'includes/card.php';
 ?>
