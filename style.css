@@ -21,13 +21,6 @@ html, body {
 	margin-top: 155px;
 	font-size: 30px;
 }
-.mHeader img {
-	margin:10px;
-	width: 40px;
-	height: auto;
-	margin-left: 300px;
-}
-
 
 /************************************************ FOOTER *****************************/
 .mFooter {
@@ -78,14 +71,27 @@ html, body {
 .openMenu {
 	position: absolute;
 	z-index: 20;
-	margin-left: 300px;
+	margin-left: 100px;
 }
 
 .closeMenu {
 	position: absolute;
-	z-index: 21;
+	z-index: 20;
 	margin-left: 320px;
 	
+}
+
+.mHeader img /*Menu open icon*/ {
+	margin:53px;
+	width: 80px;
+	height: auto;
+	margin-left: 100px;
+}
+
+.closeMenu img {
+	width: 80px;
+	height: auto;
+	margin-top: 53px;
 }
 
 /**************************************BUTTONS*****************************************/
@@ -94,6 +100,7 @@ html, body {
 /**MENU BUTTON**/
 input[type=submit] {
 	opacity: 0;
-	width: 40px;
-	height: 40px;
+	width: 80px;
+	height: 80px;
+	margin-top: 60px;
 }
