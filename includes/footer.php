@@ -1,10 +1,10 @@
-<div class="mFooter">
+<div class="mFooter mOnly">
 	<p>&copy; Joakim Kjellander 2017</p>
 </div>
 
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu fuckery- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<div class="openMenu">
+<div class="openMenu mOnly">
 	<img src="icons/menu.svg">
 	<form method="post">
 	    <input type="submit" name="open" id="test" style="margin-top: -137px;position: absolute;margin-left: -35px">
@@ -41,7 +41,7 @@
 	
 	?>
 </div>
-<div class="closeMenu">
+<div class="closeMenu mOnly">
 	<img src="icons/menu.svg">
 	<form method="post">
 		<input type="submit" name="close" id="test" style="margin-top: -77px;position: absolute;margin-left: 350px">
@@ -77,3 +77,5 @@
 	
 	?>
 </div>
+</body>
+</html>

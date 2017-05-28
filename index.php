@@ -1,26 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Portfolio</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
-	<link rel="stylesheet" href="openMenu.php">
-	<style>
-		.mHeader, header, .mFooter, footer {
-			background-color: #4caf50;
-		}
-	</style>
-</head>
-<body>
-	<?php include 'includes/header.php'; ?>
-	<?php include 'includes/menu.php'; ?>
-	<div class="clear"></div>
-	<div class="hej"><p>24</p></div>
+<?php
+	$pageTitle = "Home";
+	include 'includes/header.php';
+?>
+<style>
+	.mHeader, header, .mFooter, footer {
+		background-color: #4caf50;
+	}
+</style>
+<?php include 'includes/menu.php'; ?>
+<div class="clear"></div>
+<div class="hej"><p>24</p></div>
 
 
 
 
-	<?php include "includes/footer.php";?>
-</body>
-</html>
+<?php include "includes/footer.php";?>

@@ -1,3 +1,0 @@
-function openMenu() {
-	alert("WORK?????") ;
-}
