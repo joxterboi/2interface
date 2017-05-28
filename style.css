@@ -22,9 +22,10 @@ html, body {
 	font-size: 30px;
 }
 .mHeader img {
-	margin:20px;
+	margin:10px;
 	width: 40px;
 	height: auto;
+	margin-left: 300px;
 }
 
 
@@ -70,4 +71,29 @@ html, body {
 	height: 200px;
 	position: absolute;
 	top:200px;
+}
+
+
+
+.openMenu {
+	position: absolute;
+	z-index: 20;
+	margin-left: 300px;
+}
+
+.closeMenu {
+	position: absolute;
+	z-index: 21;
+	margin-left: 320px;
+	
+}
+
+/**************************************BUTTONS*****************************************/
+
+
+/**MENU BUTTON**/
+input[type=submit] {
+	opacity: 0;
+	width: 40px;
+	height: 40px;
 }
