@@ -1,3 +1,5 @@
+/*Orange:ef6c00*/
+
 html, body, div, ul, li, a, h1, h2, h3, h4, h5, h6, form {
 	margin: 0;padding: 0;border:0;font-family: roboto;
 }
@@ -75,7 +77,6 @@ html, body {
 	position: absolute;
 	z-index: 20;
 	margin-left: 320px;
-	
 }
 
 .openMenu img /*Menu open icon*/ {
@@ -90,6 +91,7 @@ html, body {
 	height: auto;
 	margin-top: 53px;
 	margin-left: 350px;
+	display: none
 }
 
 /**************************MENU TEXT AND ICONS************************************/
