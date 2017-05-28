@@ -5,8 +5,9 @@
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu fuckery- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <div class="openMenu">
+	<img src="icons/menu.svg">
 	<form method="post">
-	    <input type="submit" name="open" id="test">
+	    <input type="submit" name="open" id="test" style="margin-top: -137px;position: absolute;margin-left: -35px">
 	</form>
 	
 	<?php
@@ -15,11 +16,21 @@
 	{
 	   			echo "<style type='text/css'>
 					.mMenu {
-						width: 300px;
-						transition: 0.4s;
+						width: 620px;
+						animation-name: openMenuAnimation;
+						animation-duration:0.4s;
+						animation-timing-function: ease-in-out;
 					}
 					.closeMenu {
 						display:block;
+					}
+					.openMenu {
+						display:none;
+					}
+
+					@keyframes openMenuAnimation {
+						from {width:0;}
+						to {width:620px;}
 					}
 				</style>";
 	}
@@ -33,7 +44,7 @@
 <div class="closeMenu">
 	<img src="icons/menu.svg">
 	<form method="post">
-		<input type="submit" name="close" id="test" style="margin-top: -77px;position: absolute;">
+		<input type="submit" name="close" id="test" style="margin-top: -77px;position: absolute;margin-left: 350px">
 	</form>
 	
 	<?php
@@ -43,10 +54,19 @@
 	   			echo "<style type='text/css'>
 					.mMenu {
 						width: 0;
-						transition: 0.4s;
+						animation-name: closeMenuAnimation;
+						animation-duration:0.4s;
+						animation-timing-function: ease-in-out;
 					}
 					.closeMenu {
 						display:none;
+					}
+					.openMenu {
+						display:block;
+					}
+					@keyframes closeMenuAnimation {
+						from {width:620px;}
+						to {width:0;}
 					}
 				</style>";
 	}
