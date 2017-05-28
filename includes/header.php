@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<div class="mHeader mOnly">
+<div class="mHeader mOnly" style="background-color: <?php echo $pageColor ?>"">
 	<p><?php echo $pageTitle?></p>
 </div>
 
