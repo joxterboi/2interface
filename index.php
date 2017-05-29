@@ -4,20 +4,11 @@
 	include 'includes/header.php';
 ?>
 <?php include 'includes/menu.php'; ?>
-<!-- <div class="clear"></div> -->
 <?php
 	$cardImage = "nycSkyline.jpg";
 	$cardTitle = "NYC Skyline";
 	$cardSubTitle = 'En bild tagen från en båt på Manhattan som är en del av New York City.<br><br> Klicka på "SE MER" för att se fler stadsbilder!';
 	$cardLink1 = "city.php";
-	$cardLink2 = "";
-	include 'includes/card.php';
-?>
-<?php
-	$cardImage = "nature.jpg";
-	$cardTitle = "Solnedgång i skogen";
-	$cardSubTitle = 'Klicka på "SE MER" för att se fler naturbilder!';
-	$cardLink1 = "nature.php";
 	$cardLink2 = "";
 	include 'includes/card.php';
 ?>
@@ -30,10 +21,26 @@
 	include 'includes/card.php';
 ?>
 <?php
-	$cardImage = "clouds.jpg";
-	$cardTitle = "Moln";
-	$cardSubTitle = '';
-	$cardLink1 = "link1";
+	$cardImage = "piza.jpg";
+	$cardTitle = "Pisa";
+	$cardSubTitle = 'Bild på Lutande tornet, katedralen i Pisa och dopkapellet i Pisa';
+	$cardLink1 = "city.php";
+	$cardLink2 = "link2";
+	include 'includes/card.php';
+?>
+<?php
+	$cardImage = "kalleBruket.jpg";
+	$cardTitle = "Bruket";
+	$cardSubTitle = 'Ett surrealistisk foto av Järfällas höjdpunkt, bruket.';
+	$cardLink1 = "nature.php";
+	$cardLink2 = "link2";
+	include 'includes/card.php';
+?>
+<?php
+	$cardImage = "panoBruket.jpg";
+	$cardTitle = "Gåseborg";
+	$cardSubTitle = 'Ett panoramafoto av Gåseborg som är ett bärg i Järfälla med vacker utsikt över mälaren.';
+	$cardLink1 = "landscape.php";
 	$cardLink2 = "link2";
 	include 'includes/card.php';
 ?>

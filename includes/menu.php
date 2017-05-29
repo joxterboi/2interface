@@ -1,6 +1,6 @@
 <div class="mMenu mOnly">
 	<p id="mMenuTitle">Portfolio</p>
-	<div class="devider"></div>
+	<div class="divider" style="height: 1px;background-color: rgba(0,0,0,0.3);width: 90%;margin-left: 5%;"></div>
 	<p id="mMenuSubTitle" class="mOnly">All pages</p>
 	<ul>
 		<li>
@@ -10,6 +10,7 @@
 			<a href="landscape.php" id="mMenuItems"><img src="icons/landscape.svg"> Landscape</a>
 		</li>
 	</ul>
+	<a href="kontakt.php" style="text-decoration: none;"><p style="text-align: center;font-size: 30px;color: rgba(0,0,0,0.6);margin-top: 750px;">Kontakta oss här!</p></a>
 </div>
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu fuckery- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <div class="openMenu mOnly">

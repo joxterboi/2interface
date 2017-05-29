@@ -4,25 +4,27 @@
 	include 'includes/header.php';
 ?>
 <?php include 'includes/menu.php'; ?>
-<!-- <div class="clear"></div> -->
+
 <?php
-	$cardImage = "panoramaJarfalla.jpg";
-	$cardTitle = "Järfälla";
-	$cardSubTitle = 'Flygfoto över Järfälla';
-	$cardLink1 = "link1";
-	$cardLink2 = "link2";
-	include 'includes/card.php';
+$tileImage = "oneWtc";
+$tileName = "New York City, United States";
+include 'includes/tile.php';
 ?>
 <?php
-	$cardImage = "piza.jpg";
-	$cardTitle = "Pisa";
-	$cardSubTitle = 'Bild på Lutande tornet, katedralen i Pisa och dopkapellet i Pisa';
-	$cardLink1 = "link1";
-	$cardLink2 = "link2";
-	include 'includes/card.php';
+$tileImage = "florence";
+$tileName = "Florence, Italy";
+include 'includes/tile.php';
 ?>
-
-
+<?php
+$tileImage = "venice";
+$tileName = "Venice, Italy";
+include 'includes/tile.php';
+?>
+<?php
+$tileImage = "panoramaJarfalla";
+$tileName = "Järfälla";
+include 'includes/tile.php';
+?>
 
 
 <?php include "includes/footer.php";?>
