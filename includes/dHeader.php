@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="mdsl.css">
 </head>
 <body>
-<div class="dHeader">
+<div class="dHeader dOnly">
 	<header style="background-color:<?php echo $pageColor?> ">
 		<div class="navigation">
 			<nav style="background-color: <?php echo $pageColor?>">

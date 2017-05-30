@@ -1,4 +1,4 @@
-<div class="dCard">
+<div class="dCard dOnly">
 	<img src="images/<?php echo $cardImage?>">
 	<h1><?php echo $cardTitle?></h1>
 	<h2><?php echo $cardSubTitle?></h2>

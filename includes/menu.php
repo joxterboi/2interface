@@ -25,7 +25,7 @@
 	{
 	   			echo "<style type='text/css'>
 					.mMenu {
-						width: 620px;
+						width: 320px;
 						animation-name: openMenuAnimation;
 						animation-duration:0.4s;
 						animation-timing-function: ease-in-out;
@@ -39,7 +39,7 @@
 
 					@keyframes openMenuAnimation {
 						from {width:0;}
-						to {width:620px;}
+						to {width:320px;}
 					}
 				</style>";
 	}
@@ -52,7 +52,7 @@
 </div>
 <div class="closeMenu mOnly">
 	<form method="post">
-		<input type="submit" name="close" id="test" style="position: absolute;width: 67vw;min-height: 100vh;margin-top: -110px;overflow: hidden;">
+		<input type="submit" name="close" id="test" style="position: absolute;width: 25vw;min-height: 100vh;margin-top: -110px;overflow: hidden;">
 	</form>
 	
 	<?php
@@ -73,7 +73,7 @@
 						display:block;
 					}
 					@keyframes closeMenuAnimation {
-						from {width:620px;}
+						from {width:320px;}
 						to {width:0;}
 					}
 				</style>";

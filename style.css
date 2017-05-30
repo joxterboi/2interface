@@ -13,22 +13,22 @@ html, body {
 /*********************************** HEADER *****************************************/
 .mHeader {
 	width: 100%;
-	height: 130px;
+	height: 50px;
 	position: relative;
 	box-shadow: 0 7px 9px rgba(0,0,0,0.5)
 }
 .mHeader p {
 	float: left;
-	margin-left: 230px;
+	margin-left: 73px;
 	color:#fff;
-	font-size: 50px;
-	margin-top: 38px;
+	font-size: 22px;
+	margin-top: 12px;
 }
 
 /************************************************ FOOTER *****************************/
 .mFooter {
 	width:100%;
-	height:100px;
+	height:40px;
 	position: relative;
 	bottom: 0;
 	padding-bottom: 16px;
@@ -36,9 +36,9 @@ html, body {
 }
 .mFooter p {
 	color: #fff;
-	line-height: 110px;
+	line-height: 55px;
 	text-align: center;
-	font-size: 30px
+	font-size: 17px
 }
 
 /*************************************** MENU ***************************************/
@@ -70,8 +70,8 @@ html, body {
 .openMenu {
 	position: absolute;
 	z-index: 20;
-	margin-left: 100px;
-	margin-top: 33px;
+	margin-left: 60px;
+	margin-top: 101px;
 }
 
 .closeMenu {
@@ -82,10 +82,10 @@ html, body {
 }
 
 .openMenu img /*Menu open icon*/ {
-	margin:-132px;
-	width: 70px;
+	margin:-143px;
+	width: 35px;
 	height: auto;
-	margin-left: -34px;
+	margin-left: -35px;
 	position: absolute;
 }
 
@@ -100,29 +100,29 @@ html, body {
 /**************************MENU TEXT AND ICONS************************************/
 
 #mMenuTitle {
-	font-size: 65px;
+	font-size: 30px;
 	text-align: center;
 	opacity: 0.6;
 }
 #mMenuSubTitle {
 	opacity: 0.6;
-	font-size: 45px;
-	margin-left: 70px;
+	font-size: 25px;
+	margin-left: 46px;
 }
 #mMenuItems {
 	color: #000;
-	margin-left: 200px;
+	margin-left: 108px;
 	text-decoration: none;
 	display: block;
-	font-size: 50px;
+	font-size: 25px;
 	font-weight: lighter;
 	margin-top: 40px;
 }
 #mMenuItems img {
 	opacity: 0.6;
-	width: 65px;
+	width: 31px;
 	position: absolute;
-	margin-left: -135px;
+	margin-left: -66px;
 }
 
 
@@ -140,8 +140,8 @@ html, body {
 /**MENU BUTTON**/
 input[type=submit] {
 	opacity: 0;
-	width: 80px;
-	height: 80px;
+	width: 39px;
+	height: 35px;
 	margin-top: 60px;
 }
 
@@ -162,7 +162,7 @@ input[type=submit] {
 	padding: 8px;
 	border: none;
 	background-color: #fff;
-	font-size: 35px;
+	font-size: 15px;
 	font-weight: 500;
 	margin-left: 20px;
 	margin-top: 40px;
@@ -174,13 +174,13 @@ input[type=submit] {
 	margin-top: -15px;
 }
 .card h1 {
-	font-size: 55px;
+	font-size: 25px;
 	margin-left: 20px;
 	margin-top: 15px;
 	font-weight: 400;
 }
 .card h2 {
-	font-size: 36px;
+	font-size: 20px;
 	margin-left: 20px;
 	margin-top: 5px;
 	font-weight: 300;
@@ -197,9 +197,9 @@ input[type=submit] {
 }
 .tile p {
 	color:#fff;
-	font-size: 50px;
-	margin-left: 40px;
-	margin-top: -83px;
+	font-size: 17px;
+	margin-left: 15px;
+	margin-top: -32px;
 	font-weight: 300;
 	z-index: 6;
 	position: absolute;
@@ -211,10 +211,10 @@ input[type=submit] {
 }
 
 .dark {
-	height: 90px;
+	height: 35px;
 	width: 95%;
 	background-color: rgba(0,0,0,0.5);
-	margin-top: -96px;
+	margin-top: -40px;
 	z-index: 5;
 	position: absolute;
 }
@@ -231,7 +231,11 @@ input[type=submit] {
 	.mOnly, .card, .tile {
 		display: none;
 	}
-
+}
+@media only screen and (max-width: 500px) {
+	.dOnly, .content, #content, #container {
+		display: none;
+	}
 }
 .dMenu ul {
 	width: 100vw;
@@ -324,10 +328,34 @@ input[type=submit] {
 .up1 {
 	margin-top: -237px;
 }
+.up2 {
+	margin-top: -38px;
+	height: 302px;
+	overflow:hidden;
+}
+.up2 img {
+	margin-top: -98px;
+}
+.up3 {
+	margin-top: 0px;
+	height: 313px;
+	overflow: hidden;
+}
+.up3 img {
+	margin-top: -38px;
+}
+.up3 p {
+	margin-top: -70px;
+}
+.up4 {
+	margin-top: -87px;
+}
+
+
+
 .venice {
 	height: 361px !important;
 	overflow: hidden;
-
 }
 .venice img {
 	margin-top: -39px;
@@ -339,21 +367,26 @@ footer {
 	height: 50px;
 	text-align: center;
 	clear: both;
-	margin-top: 50px;
-	bottom: 0
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 }
 footer p {
-	line-height: 50px;
 	color: #fff;
 }
 #body {
 	position: relative;
 }
 html, body {
-	height: 100%
+	height: 100vh
 }
 .getDown {
-	padding: 10px;
+	padding: 50px;
 	padding-bottom: 25px;
 	clear: both;
+	height: 50px
+}
+#container {
+	min-height: 100vh;
+	position: relative;
 }
