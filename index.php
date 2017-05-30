@@ -94,5 +94,6 @@
 			$cardLink1 = "landscape.php";
 			include 'includes/dCard.php';
 		?>
+		s
 	</div>
 </div>
