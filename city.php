@@ -28,3 +28,41 @@ include 'includes/tile.php';
 
 
 <?php include "includes/footer.php";?>
+
+
+<!-- DEXTOP -->
+
+<div id="body">
+<?php include 'includes/dHeader.php';?>
+<div class="tileContent">
+	<div class="tileHolder">
+		<?php
+		$class = "no";
+		$tileImage = "oneWtc";
+		$tileName = "New York City, United States";
+		include 'includes/dTile.php';
+		?>
+		<?php
+		$class = "no";
+		$tileImage = "florence";
+		$tileName = "Florence, Italy";
+		include 'includes/dTile.php';
+		?>
+
+		<?php
+		$class = "venice";
+		$tileImage = "venice";
+		$tileName = "Venice, Italy";
+		include 'includes/dTile.php';
+		?>
+		<?php
+		$class = "up1";
+		$tileImage = "panoramaJarfalla";
+		$tileName = "Järfälla";
+		include 'includes/dTile.php';
+		?>
+	</div>
+</div>
+<div class="getDown"></div>
+<?php include 'includes/dFooter.php';?>
+</div>
