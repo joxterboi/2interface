@@ -65,6 +65,6 @@ include 'includes/tile.php';
 			?>
 		</div>
 	</div>		
-		<div class="getDown"></div>
+	<div class="getDown"></div>
 	<?php include 'includes/dFooter.php';?>
 </div>

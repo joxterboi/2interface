@@ -1,1 +1,1 @@
-<footer class="dOnly" style="background-color: <?php echo $pageColor?>"><p>&copy; Joakim Kjellander 2017</p></footer>
+<footer class="dOnly <?php echo $footerclass?>" style="background-color: <?php echo $pageColor?>"><p>&copy; Joakim Kjellander 2017</p></footer>

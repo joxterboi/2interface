@@ -106,7 +106,7 @@ html, body {
 }
 #mMenuSubTitle {
 	opacity: 0.6;
-	font-size: 25px;
+	font-size: 24px;
 	margin-left: 46px;
 }
 #mMenuItems {
@@ -114,7 +114,7 @@ html, body {
 	margin-left: 108px;
 	text-decoration: none;
 	display: block;
-	font-size: 25px;
+	font-size: 23px;
 	font-weight: lighter;
 	margin-top: 40px;
 }
@@ -180,11 +180,18 @@ input[type=submit] {
 	font-weight: 400;
 }
 .card h2 {
-	font-size: 20px;
+	font-size: 18px;
 	margin-left: 20px;
 	margin-top: 5px;
 	font-weight: 300;
 	width: 76%;
+}
+.card h3 {
+	font-size: 13px;
+	margin-left: 20px;
+	margin-top: 5px;
+	width: 76%;
+	font-weight: 400;
 }
 
 /***********************************************************TILES****************************************************************/
@@ -297,7 +304,12 @@ input[type=submit] {
 	margin-right: auto;
 	width: 915px 
 }
-
+.WOI {
+	padding-top: 4px;
+}
+.WOI h2 {
+	margin-top: 20px;
+}
 /*******************************************D TILES************************************************/
 .dTile {
 	width: 600px;
@@ -389,4 +401,10 @@ html, body {
 #container {
 	min-height: 100vh;
 	position: relative;
+}
+.work {
+	position: relative !important;
+	width: 100%;
+	line-height: 50px;
+	margin-top: 550px;
 }

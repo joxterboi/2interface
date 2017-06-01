@@ -8,9 +8,10 @@
 			<a href="city.php" id="mMenuItems"><img src="icons/city.svg"> City</a>
 			<a href="nature.php" id="mMenuItems"><img src="icons/nature.svg"> Nature</a>
 			<a href="landscape.php" id="mMenuItems"><img src="icons/landscape.svg"> Landscape</a>
+			<a href="info.php" id="mMenuItems"><img src="icons/image.svg"> Information</a>
+			<a href="kontakt.php" id="mMenuItems"><img src="icons/phone.svg"> Contact</a>
 		</li>
 	</ul>
-	<a href="kontakt.php" style="text-decoration: none;"><p style="text-align: center;font-size: 30px;color: rgba(0,0,0,0.6);margin-top: 750px;">Kontakta oss här!</p></a>
 </div>
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu fuckery- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <div class="openMenu mOnly">

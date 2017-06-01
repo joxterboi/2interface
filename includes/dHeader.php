@@ -14,11 +14,13 @@
 					<a href="city.php" class="City">City</a>
 					<a href="nature.php" class="Nature">Nature</a>
 					<a href="landscape.php" class="Landscape">Landscape</a>
+					<a href="info.php" class="Info">Info</a>
+					<a href="kontakt.php" class="Kontakt">Contact</a>
 			</nav>
 		</div>
 	</header>
 	<style>
-		.<?php echo $pageTitle?> {
+		<?php echo $pageTitle?> {
 			border-bottom: 3px solid #fff;
 			opacity: 1;
 

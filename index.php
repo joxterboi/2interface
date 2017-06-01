@@ -96,3 +96,7 @@
 		?>
 	</div>
 </div>
+		<?php 
+			$footerclass = "work";
+			include 'includes/dFooter.php';
+		?>
