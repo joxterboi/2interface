@@ -19,3 +19,30 @@
 <?php include 'includes/footer.php';?>
 
 <!-- Dextop -->
+<?php include 'includes/dHeader.php';?>
+<div class="content">
+
+	<div class="cardHolder">
+		<?php
+			$cardImage = "contact.jpg";
+			$cardTitle = "Kontakt";
+			$cardSubTitle = 'Du kan nå oss genom både telefon och e-mail dygnet runt om du har några frågor ellet av någon annan andledning vill kontakta oss.';
+			$cardLink1 = "call.php";
+			$cardLink2 = "link2";
+			include 'includes/dCard.php';
+		?>
+		<?php
+			$cardImage = "info.jpg";
+			$cardTitle = "Varför vi finns";
+			$cardSubTitle = 'Denna webplats finns föra att informera allmänhten och visa Joakims bilder.';
+			$cardLink1 = "protectYourImages.php";
+			$cardLink2 = "link2";
+			include 'includes/dCard.php';
+		?>
+	</div>
+</div>
+
+<?php
+	$footerclass = "down";
+	include 'includes/dFooter.php';
+?>

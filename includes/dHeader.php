@@ -20,7 +20,7 @@
 		</div>
 	</header>
 	<style>
-		<?php echo $pageTitle?> {
+		.<?php echo $pageTitle?> {
 			border-bottom: 3px solid #fff;
 			opacity: 1;
 

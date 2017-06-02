@@ -408,3 +408,29 @@ html, body {
 	line-height: 50px;
 	margin-top: 550px;
 }
+
+
+
+
+
+/*L CARD*/
+.lCard {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	width: 1200px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.lCard h1 {
+	text-align: center;
+	font-weight: 300;
+}
+.lCard p {
+	width: 800px;
+	margin-left: 200px;
+	margin-top: 30px;
+	font-size: 17px;
+}

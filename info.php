@@ -23,6 +23,14 @@
 	$cardLink2 = "link2";
 	include 'includes/card.php';
 ?>
+<?php
+	$cardImage = "publicering_av_bilder.jpg";
+	$cardTitle = "Vilket format?";
+	$cardSubTitle = 'Lär dig de mest effektiva formatet för just din bild!';
+	$cardLink1 = "format.php";
+	$cardLink2 = "link2";
+	include 'includes/card.php';
+?>
 
 
 
@@ -36,7 +44,7 @@
 			$cardImage = "publicering_av_bilder.jpg";
 			$cardTitle = "Publisering av bilder";
 			$cardSubTitle = 'Regler kring publicering av dina och andras bilder på nätet.';
-			$cardLink1 = "landscape.php";
+			$cardLink1 = "publishYourPictures.php";
 			$cardLink2 = "link2";
 			include 'includes/dCard.php';
 		?>
@@ -52,17 +60,9 @@
 		<div class="cardHolder">
 		<?php
 			$cardImage = "publicering_av_bilder.jpg";
-			$cardTitle = "Publisering av bilder";
-			$cardSubTitle = 'Regler kring publicering av dina och andras bilder på nätet.';
-			$cardLink1 = "landscape.php";
-			$cardLink2 = "link2";
-			include 'includes/dCard.php';
-		?>
-		<?php
-			$cardImage = "stealPics.jpg";
-			$cardTitle = "Skydda dina bilder!";
-			$cardSubTitle = 'Lär dig de mest effektiva sätten att skydda dina bilder mot stöld!';
-			$cardLink1 = "landscape.php";
+			$cardTitle = "Vilket format?";
+			$cardSubTitle = 'Lär dig de mest effektiva formatet för just din bild!';
+			$cardLink1 = "format.php";
 			$cardLink2 = "link2";
 			include 'includes/dCard.php';
 		?>
